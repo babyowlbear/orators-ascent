@@ -1,0 +1,83 @@
+<tw-storydata name="Frangitorbis: Orator&#39;s Ascent" startnode="1" creator="Twine" creator-version="2.6.2" format="Chapbook" format-version="1.2.3" ifid="17A7A086-A5C7-4150-9241-8F31A51E200B" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Intro" tags="" position="700,250" size="100,100">Athleticism: 1
+Awareness: 1
+Intellect : 1
+Energy: 100
+Title: &#39;Mr&#39;
+Name: &#39;Rowan&#39;
+LastName: &#39;Brante&#39;
+config.header.center: &quot;Energy: {Energy}&quot;
+--
+Frangitorbis: Orator&#39;s Ascent is a choose your own adventure game set in the world of Frangitorbis, where the Perennials who created the world now walk it, and where only a select few can tap into the magical force of the Dialect.
+***
+&gt;In this story your choices will effect the world around you, starting with the town in which you are born, and eventually spreading to the entire kingdom and beyond. However, your choices are limited by your statistics. Several forms of statistics exist, and they are all explained below.
+***
+&gt;Attributes define your general capabilities. The attributes you can develop are Athleticism, Awareness, and Intellect. Athleticism covers physical acts, from captivating feats of strength to astounding shows of acrobatics. Awareness is your capability to take in the world around you, from noticing hidden cabinets to catching someone in a lie. Lastly, Intellect covers your knowledge, from knowledge of history to the ability to solve a puzzle.
+***
+&gt; Energy is an unique statistic that you use for manipulation the Dialect. This is the form of magic that exists in Frangitorbis. Energy burns away when using magical abilities, and is incredibly difficult to get back. You start with 100, and the more powerful an ability the more Energy it costs. Reaching zero Energy is lethal.
+***
+&gt;Lastly, Skills are specific unlockable statistics that can allow you to access different options. These range from the ability to pick locks to a status or job. These are fairly rare to get, and are extremely valuable when found.
+***
+&gt;Every option in the game will say what statistics it effects, as well as if it is only present because of a specific statistic. Now, with the basic of gameplay explained, let&#39;s begin with the basics.
+***
+&gt; What is your name?
+
+{dropdown menu for: &#39;Title&#39;, choices: [&#39;Mr&#39;, &#39;Ms&#39;, &#39;Mx&#39;]}
+{text input for: &#39;Name&#39;}
+{text input for: &#39;LastName&#39;}
+
+&gt; [[Start with She/her Pronouns]]
+&gt; [[Start with He/him Pronouns]]
+&gt; [[Start with They/them Pronouns]]</tw-passagedata><tw-passagedata pid="2" name="Work out" tags="" position="750,550" size="100,100">Athleticism: Athleticism + 1
+--
+{Pronoun2}
+{Pronoun}
+{Name} works out {Pronoun3} muscles.
+
+[[Doorway]]</tw-passagedata><tw-passagedata pid="3" name="Study" tags="" position="875,550" size="100,100">Intellect: Intellect + 1
+Pronoun2 (Pronoun = &#39;He&#39;): &#39;him&#39;
+Pronoun3 (Pronoun = &#39;He&#39;): &#39;his&#39;
+Pronoun4 (Pronoun = &#39;He&#39;): &#39;his&#39;
+Pronoun2 (Pronoun = &#39;She&#39;): &#39;her&#39;
+Pronoun3 (Pronoun = &#39;She&#39;): &#39;her&#39;
+Pronoun4 (Pronoun = &#39;She&#39;): &#39;hers&#39;
+Pronoun2 (Pronoun = &#39;They&#39;): &#39;them&#39;
+Pronoun3 (Pronoun = &#39;They&#39;): &#39;their&#39;
+Pronoun4 (Pronoun = &#39;They&#39;): &#39;theirs&#39;
+--
+
+{Name} develops {Pronoun3} mind.
+
+[[Doorway]] </tw-passagedata><tw-passagedata pid="4" name="Doorway" tags="" position="800,725" size="100,100">{Pronoun} did it
+It was {Pronoun2}
+I think that&#39;s {Pronoun3} bag
+I think that&#39;s {Pronoun4}
+
+
+
+[if Athleticism &gt; 1]
+[[Break Down]]
+
+[if Intellect &gt; 1]
+[[Pick Lock]]</tw-passagedata><tw-passagedata pid="5" name="Break Down" tags="" position="600,925" size="100,100">{Name} breaks down the door</tw-passagedata><tw-passagedata pid="6" name="Pick Lock" tags="" position="875,950" size="100,100">{Name} picks the lock</tw-passagedata><tw-passagedata pid="7" name="Start with She/her Pronouns" tags="" position="800,400" size="100,100">Pronoun: &#39;She&#39;
+Pronoun2: &#39;her&#39;
+Pronoun3: &#39;her&#39;
+Pronoun4: &#39;hers&#39;
+--
+
+&gt; [[Work out]] 
+&gt; [[Study]] </tw-passagedata><tw-passagedata pid="8" name="Start with He/him Pronouns" tags="" position="625,375" size="100,100">Pronoun: &#39;He&#39;
+Pronoun2: &#39;him&#39;
+Pronoun3: &#39;his&#39;
+Pronoun4: &#39;his&#39;
+--
+
+&gt; [[Work out]] 
+&gt; [[Study]] </tw-passagedata><tw-passagedata pid="9" name="Start with They/them Pronouns" tags="" position="975,400" size="100,100">Pronoun: &#39;They&#39;
+Pronoun2: &#39;them&#39;
+Pronoun3: &#39;their&#39;
+Pronoun4: &#39;theirs&#39;
+--
+
+&gt; [[Work out]] 
+&gt; [[Study]] </tw-passagedata></tw-storydata>
+
