@@ -151,13 +151,14 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 
-
+body {
+	background: url("images/background.png") center center / cover no-repeat;
+}
 
 body, tw-story {
   font-size: 18px;
   font-family: 'VT323', monospace;
   color: #78909C;
-  background-color: black;
 }
   
 
@@ -229,8 +230,8 @@ Now, with the basic of gameplay explained, let&#39;s begin with the basics.
 
 What title do you go by?  
 &lt;&lt;listbox &quot;$Title&quot; autoselect&gt;&gt;
-	&lt;&lt;option Mr.&gt;&gt;
 	&lt;&lt;option Ms.&gt;&gt;
+    &lt;&lt;option Mr.&gt;&gt;
 	&lt;&lt;option Mx.&gt;&gt;
 &lt;&lt;/listbox&gt;&gt;
 &gt; [[Start with She/her Pronouns]]  
@@ -396,7 +397,7 @@ Energy: $Energy</tw-passagedata><tw-passagedata pid="15" name="StoryInit" tags="
 &lt;&lt;set $Energy = 100&gt;&gt;
 &lt;&lt;set $Name = &#39;Rowan&#39;&gt;&gt;
 &lt;&lt;set $LastName = &#39;Brante&#39;&gt;&gt;
-&lt;&lt;set $Title = &#39;Mr.&#39;&gt;&gt;
+&lt;&lt;set $Title = &#39;Ms.&#39;&gt;&gt;
 &lt;&lt;set $IsF = false&gt;&gt;
 &lt;&lt;set $IsM = false&gt;&gt;
 &lt;&lt;set $IsNB = false&gt;&gt;
