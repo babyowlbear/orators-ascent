@@ -247,7 +247,7 @@ color: #5D7EE7;
 /* Drunk Text - End */
 }}}</style><script role="script" id="twine-user-script" type="text/twine-javascript">$('#ui-bar').remove();
 $(document.head).find('#style-ui-bar').remove();
-</script><tw-passagedata pid="1" name="Intro" tags="special" position="800,100" size="100,100">Harofolos: Orator&#39;s Ascent is a choose your own adventure game set in the world of Harofolos, where the strange and distant Perennials who created the world impact it more and more, and where only a select few can tap into the magical force of the Dialect.
+</script><tw-passagedata pid="1" name="Intro" tags="mobile" position="800,100" size="100,100">Harofolos: Orator&#39;s Ascent is a choose your own adventure game set in the world of Harofolos, where the strange and distant Perennials who created the world impact it more and more, and where only a select few can tap into the magical force of the Dialect.
 
 In this story your choices will effect the world around you, starting with the town in which you are born, and eventually spreading to the entire kingdom and beyond. However, your choices are limited by your statistics. Several forms of statistics exist, and they are all explained below.
 
@@ -297,7 +297,7 @@ The entity raises its Crook, gesturing to the distance. An opening appeared, the
 &lt;&lt;set $Pronoun5 = &#39;he&#39;&gt;&gt;
 &lt;&lt;set $Has = &#39;has&#39;&gt;&gt;
 &lt;&lt;set $Is = &#39;is&#39;&gt;&gt;
-&lt;&lt;set $IsM = true&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="Start with They/them Pronouns" tags="" position="1000,300" size="100,100">You stand in darkness. No, stand doesn&#39;t quite cover it. You are there, floating in nothing, no body, not that you would know what a body is. You haven&#39;t even been born yet. And so you wait for some guidance, and in short fashion it does arrive. A figure wearing grey robes steps into your view, its hood covering any hints of distiguising characteristics. In time you would learn this entity to be called the Grey Shepherd, but for now it was simply all there was.
+&lt;&lt;set $IsM = true&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="Start with They/them Pronouns" tags="mobile" position="1000,300" size="100,100">You stand in darkness. No, stand doesn&#39;t quite cover it. You are there, floating in nothing, no body, not that you would know what a body is. You haven&#39;t even been born yet. And so you wait for some guidance, and in short fashion it does arrive. A figure wearing grey robes steps into your view, its hood covering any hints of distiguising characteristics. In time you would learn this entity to be called the Grey Shepherd, but for now it was simply all there was.
 
 The entity raises its Crook, gesturing to the distance. An opening appeared, the first light to exist in this place outside of any place. Through it you could see the faint sillouettes of two figures. The Shephard gestures you forth. You can feel a sense of warmth and compassion from this cloaked figure, a genuine level of care for your well being. As you float through the opening, you feel air sting your skin for the first time.
 
@@ -397,6 +397,8 @@ Beacon of Hope: You help keep those around you from faltering in the face of adv
 Unknown\
 &lt;&lt;/if&gt;&gt;\
 
+
+
 [[Lore Basics]] 
 &lt;a onclick=&quot;SugarCube.UI.restart();&quot; tabindex=&quot;0&quot;&gt;Restart&lt;/a&gt;</tw-passagedata><tw-passagedata pid="11" name="Confirm Name" tags="" position="800,700" size="100,100">&lt;span class=father&gt;&quot;I think we decided on $Name.&quot;&lt;/span&gt; says the man with joy in his voice. The bearded man sits at the end of your bed adorned in the garbs of a lowly manual laborer. A layer of soot rests upon his clothes, indicative of a grime so deep it could never truly be washed clean. He excudes an energy of determination, his jaw set firmly even as he looks at you with pride in his eyes.
 
@@ -460,7 +462,7 @@ She continues speaking, but you find yourself zoning out. You can&#39;t stop loo
 
 Config.passages.nobr = true;
 
-&lt;&lt;link &quot;Saves&quot;&gt;&gt;&lt;&lt;script&gt;&gt;UI.saves()&lt;&lt;/script&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="PassageFooter" tags="" position="1400,300" size="100,100">&lt;&lt;if not tags().includes(&quot;special&quot;)&gt;&gt;
+&lt;&lt;link &quot;Saves&quot;&gt;&gt;&lt;&lt;script&gt;&gt;UI.saves()&lt;&lt;/script&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="PassageFooter" tags="" position="1400,300" size="100,100">&lt;&lt;if not tags().includes(&quot;mobile&quot;)&gt;&gt;
 
 &lt;div id=&quot;bottombar&quot;&gt;&lt;div id=&quot;bbblock&quot;&gt;&lt;div id=&quot;bbtext&quot;&gt; Athleticism: $Athleticism &amp;nbsp; Awareness: $Awareness &amp;nbsp; Intellect: $Intellect &amp;nbsp; Sway: $Sway &amp;nbsp; Energy: $Energy 
   &lt;&lt;back &#39;Go Back&#39;&gt;&gt; &amp;nbsp; [[Menu]] &amp;nbsp; &lt;&lt;link &quot;Saves&quot;&gt;&gt;&lt;&lt;script&gt;&gt;UI.saves()&lt;&lt;/script&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;&lt;/if&gt;&gt;
@@ -474,7 +476,7 @@ Aspects do not always match the expectations of the Perennial that spawned them.
 
 Often the things Aspects represent can overlap with what the Pernennial who spawned them represent, such as Change being the Perennial of Birth and Death and yet The Morning&#39;s Embrace being the Aspect of Birth. This is because, while the Perennials create and exemplify their domains, they need the Aspects to truly portray the concepts to mortals. Change. or the Grey Shepherd, may control birth, but the mortal understanding of and interaction with the idea of birth is under the control of The Morning&#39;s Embrace.
 
-Lastly, Aspects can often contain traces of other Perennials in their nature. A prime example is The Alabaster Raven, an Aspect that corrupts the good and whos followers practice cannibalism. Despite these ties to Corruption and Consumption, The Alabaster Raven is an Aspect of Cacophony. This is because, while it corrupts, it does so in the name of chaos and not for corruption&#39;s own sake. And while it does practice cannibalism, it does so in an elegant fashion to show it sees other mortals as below it instead of simply because of a deep hunger like that of Consumption. These distinctions can often be hard to pick out, and some religious scholars even believe that the Perennials may overlap in some areas, perhaps even having Aspects influenced by multiple, but such a level of thinking is difficult to test and highly experimental.
+Lastly, Aspects can often contain traces of other Perennials in their nature. A prime example is The One Who Yearns, the Aspect of Romantic Love, Sexual Attraction, and Obsession. These emotions can be highly greedy, in a way that reflects Consumption. They can also be very protective, thus pointing to Chrysalis. However, The One Who Yearns is an Aspect of Cacophony, with these feeling most closely connecting to madness and chaos. These distinctions can often be hard to pick out, and some religious scholars even believe that the Perennials may overlap in some areas, perhaps even having Aspects influenced by multiple, but such a level of thinking is difficult to test and highly experimental.
 
 Below are a list of the Perennials and their Aspects in alphabetical order, as well as a brief list of the domains of which they represent. The Perennials are first listed in their name under the Fairmill Classification System, but it then also lists their Regional Name in Thyndorei and Rucicade, where our story starts. It also lists the realm over which they rule. Realms are explained in the next section
 &lt;div align=&#39;center&#39; style=&#39;font-size: 100%;&#39;&gt;\
@@ -483,12 +485,10 @@ __&#39;&#39;Cacophony&#39;&#39;__
 Regional Name: The Cacophonous Singer
 Realm: The Swirling Sea
 Aspects:
-__The Alabaster Raven__
-//Aspect of Corruption of the Pure and Bad Things Happening to Good People//
 __The Elusive Spark__
 //Aspect of Art and Creativity//
 __The One Who Yearns__
-//Aspect of Romantic and Sexual Interest//
+//Aspect of Romantic Love, Sexual Attraction, and Obsession//
 
 __&#39;&#39;Capricious&#39;&#39;__
 //Perennial of the Natural World//
@@ -542,7 +542,7 @@ Aspects:
 __The False Desire__
 //Aspect of Greed, Money, and Material Excess//
 __The One Who is Us All__
-//Aspect of Every Living Creature&#39;s Primal Urges//
+//Aspect of Primal Hunger, Selfishness, and the Part of Us That Fights to Survive//
 
 __&#39;&#39;Control&#39;&#39;__
 //Perennial of Knowledge, Observation, and the Sun and Moon//
