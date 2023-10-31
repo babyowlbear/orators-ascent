@@ -160,8 +160,32 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
   color: #aaddec
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+
+button {
+	cursor: pointer;
+	color: 	#78909C;
+	background: #1a191e;
+	background-size: 100% 100%;
+	border: 1px solid #ffffff;
+	line-height: normal;
+	padding: 0.4em;
+	transition-duration: 200ms;
+	user-select: none;
+	border-width: 2px;
+	border-radius: 3px;
+	border-color: #000000;
+}
+button:hover {
+	color: 	#5D7EE7;
+	background: #1a191e;
+	background-size: 100% 100%;
+	border-color: #000000;
+	border-width: 2px;
+	border-radius: 3px;
+}
 
 body {
 	background: url("background.png") center center / cover no-repeat;
@@ -269,13 +293,14 @@ What title do you go by?
     &lt;&lt;option Mr.&gt;&gt;
 	&lt;&lt;option Mx.&gt;&gt;
 &lt;&lt;/listbox&gt;&gt;
-&gt; [[Start with She/her Pronouns]]  
-&gt; [[Start with He/him Pronouns]]  
-&gt; [[Start with They/them Pronouns]]  </tw-passagedata><tw-passagedata pid="2" name="Start with She/her Pronouns" tags="" position="800,300" size="100,100">You stand in darkness. No, stand doesn&#39;t quite cover it. You are there, floating in nothing, no body, not that you would know what a body is. You haven&#39;t even been born yet. And so you wait for some guidance, and in short fashion it does arrive. A figure wearing grey robes steps into your view, its hood covering any hints of distiguising characteristics. In time you would learn this entity to be called the Grey Shepherd, but for now it was simply all there was.
+
+&lt;&lt;button &quot;Start with She/her Pronouns&quot; &quot;She&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
+&lt;&lt;button &quot;Start with He/him Pronouns&quot; &quot;He&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
+&lt;&lt;button &quot;Start with They/them Pronouns&quot; &quot;They&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="She" tags="" position="600,300" size="100,100">You stand in darkness. No, stand doesn&#39;t quite cover it. You are there, floating in nothing, no body, not that you would know what a body is. You haven&#39;t even been born yet. And so you wait for some guidance, and in short fashion it does arrive. A figure wearing grey robes steps into your view, its hood covering any hints of distiguising characteristics. In time you would learn this entity to be called the Grey Shepherd, but for now it was simply all there was.
 
 The entity raises its Crook, gesturing to the distance. An opening appeared, the first light to exist in this place outside of any place. Through it you could see the faint sillouettes of two figures. The Shephard gestures you forth. You can feel a sense of warmth and compassion from this cloaked figure, a genuine level of care for your well being. As you float through the opening, you feel air sting your skin for the first time.
 
-&gt; [[Cry]]
+&lt;&lt;button &quot;Cry&quot; &quot;Birth&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 
 &lt;&lt;set $Pronoun = &#39;She&#39;&gt;&gt;
 &lt;&lt;set $Pronoun2 = &#39;her&#39;&gt;&gt;
@@ -284,11 +309,11 @@ The entity raises its Crook, gesturing to the distance. An opening appeared, the
 &lt;&lt;set $Pronoun5 = &#39;she&#39;&gt;&gt;
 &lt;&lt;set $Has = &#39;has&#39;&gt;&gt;
 &lt;&lt;set $Is = &#39;is&#39;&gt;&gt;
-&lt;&lt;set $IsF = true&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="Start with He/him Pronouns" tags="" position="600,300" size="100,100">You stand in darkness. No, stand doesn&#39;t quite cover it. You are there, floating in nothing, no body, not that you would know what a body is. You haven&#39;t even been born yet. And so you wait for some guidance, and in short fashion it does arrive. A figure wearing grey robes steps into your view, its hood covering any hints of distiguising characteristics. In time you would learn this entity to be called the Grey Shepherd, but for now it was simply all there was.
+&lt;&lt;set $IsF = true&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="He" tags="" position="800,300" size="100,100">You stand in darkness. No, stand doesn&#39;t quite cover it. You are there, floating in nothing, no body, not that you would know what a body is. You haven&#39;t even been born yet. And so you wait for some guidance, and in short fashion it does arrive. A figure wearing grey robes steps into your view, its hood covering any hints of distiguising characteristics. In time you would learn this entity to be called the Grey Shepherd, but for now it was simply all there was.
 
 The entity raises its Crook, gesturing to the distance. An opening appeared, the first light to exist in this place outside of any place. Through it you could see the faint sillouettes of two figures. The Shephard gestures you forth. You can feel a sense of warmth and compassion from this cloaked figure, a genuine level of care for your well being. As you float through the opening, you feel air sting your skin for the first time.
 
-&gt; [[Cry]]
+&lt;&lt;button &quot;Cry&quot; &quot;Birth&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 
 &lt;&lt;set $Pronoun = &#39;He&#39;&gt;&gt;
 &lt;&lt;set $Pronoun2 = &#39;him&#39;&gt;&gt;
@@ -297,11 +322,11 @@ The entity raises its Crook, gesturing to the distance. An opening appeared, the
 &lt;&lt;set $Pronoun5 = &#39;he&#39;&gt;&gt;
 &lt;&lt;set $Has = &#39;has&#39;&gt;&gt;
 &lt;&lt;set $Is = &#39;is&#39;&gt;&gt;
-&lt;&lt;set $IsM = true&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="Start with They/them Pronouns" tags="mobile" position="1000,300" size="100,100">You stand in darkness. No, stand doesn&#39;t quite cover it. You are there, floating in nothing, no body, not that you would know what a body is. You haven&#39;t even been born yet. And so you wait for some guidance, and in short fashion it does arrive. A figure wearing grey robes steps into your view, its hood covering any hints of distiguising characteristics. In time you would learn this entity to be called the Grey Shepherd, but for now it was simply all there was.
+&lt;&lt;set $IsM = true&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="They" tags="mobile" position="1000,300" size="100,100">You stand in darkness. No, stand doesn&#39;t quite cover it. You are there, floating in nothing, no body, not that you would know what a body is. You haven&#39;t even been born yet. And so you wait for some guidance, and in short fashion it does arrive. A figure wearing grey robes steps into your view, its hood covering any hints of distiguising characteristics. In time you would learn this entity to be called the Grey Shepherd, but for now it was simply all there was.
 
 The entity raises its Crook, gesturing to the distance. An opening appeared, the first light to exist in this place outside of any place. Through it you could see the faint sillouettes of two figures. The Shephard gestures you forth. You can feel a sense of warmth and compassion from this cloaked figure, a genuine level of care for your well being. As you float through the opening, you feel air sting your skin for the first time.
 
-&gt; [[Cry]]
+&lt;&lt;button &quot;Cry&quot; &quot;Birth&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 
 &lt;&lt;set $Pronoun = &#39;They&#39;&gt;&gt;
 &lt;&lt;set $Pronoun2 = &#39;them&#39;&gt;&gt;
@@ -310,34 +335,34 @@ The entity raises its Crook, gesturing to the distance. An opening appeared, the
 &lt;&lt;set $Pronoun5 = &#39;they&#39;&gt;&gt;
 &lt;&lt;set $Has = &#39;have&#39;&gt;&gt;
 &lt;&lt;set $Is = &#39;are&#39;&gt;&gt;
-&lt;&lt;set $IsNB = true&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="Cry" tags="" position="800,500" size="100,100">As your wails trumpet your arrival, you see the people surrounding you. At the end of the bed are a man and a woman, the woman clearly marked as a midwife, not that you knew what that means. Behind you, lying on the bed, is another woman.
+&lt;&lt;set $IsNB = true&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="Birth" tags="" position="800,500" size="100,100">As your wails trumpet your arrival, you see the people surrounding you. At the end of the bed are a man and a woman, the woman clearly marked as a midwife, not that you knew what that means. Behind you, lying on the bed, is another woman.
 
 &lt;span class=general&gt;&quot;$Pronoun $Has arrived&quot;&lt;/span&gt; the midwife says with a chuckle. She has a kind face, with clean, comfortable garbs. Her amulet makes it clear she is a worshipper of one of the Perennial Aspects, a beautiful image of a sunrise made from small crystals. The Morning&#39;s Embrace, you would learn this aspect to be called. Aspect of Birth, Midwives, and the Early Morning. &lt;span class=general&gt;&quot;What would you like to name $Pronoun2?&quot;&lt;/span&gt;
 
 &quot;I think we decided on...&quot;  
 &lt;&lt;textbox &quot;$Name&quot; &quot;Rowan&quot;&gt;&gt;
 &lt;&lt;textbox &quot;$LastName&quot; &quot;Brante&quot;&gt;&gt;
-[[Confirm Name]]</tw-passagedata><tw-passagedata pid="6" name="Reach for your Father" tags="" position="600,900" size="100,100">You reach out for your father. A look of surprise goes over his face, but he quickly recovers and scoops you up. You settle into his strong arms, his calloused hands holding you tight. It&#39;s clear in his face that he is unsure what to do with you, but the pride in his eyes stay even in his uncertainty.
+&lt;&lt;button &quot;Confirm Name&quot; &quot;First Look&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="Reach Father" tags="" position="600,900" size="100,100">You reach out for your father. A look of surprise goes over his face, but he quickly recovers and scoops you up. You settle into his strong arms, his calloused hands holding you tight. It&#39;s clear in his face that he is unsure what to do with you, but the pride in his eyes stay even in his uncertainty.
 
 &lt;span class=father&gt;&quot;Welcome to the world, $Name. I know you&#39;ll make me proud.&quot;&lt;/span&gt; He chuckles, looking to your mother. &lt;span class=father&gt;&quot;Somehow $Pronoun5 already $Has.&quot;&lt;/span&gt;
 
-&gt; [[Years pass by]] 
+&lt;&lt;button &quot;The Years Pass By&quot; &quot;Age Eleven&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 
 &lt;&lt;set $FatherRep += 1&gt;&gt;
-&lt;&lt;set $Steadfast = true&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="Reach for the Priest" tags="" position="975,900" size="100,100">You reach out for the priest, her kind face beckoning for you.  &lt;span class=general&gt;&quot;Oh, hello little one.&quot;&lt;/span&gt; She looks between your parents as she picks you up. &lt;span class=general&gt;&quot;Don&#39;t be offended, children are often drawn to the Morning Embrace&#39;s grace.&quot;&lt;/span&gt; She looks down at you now, her holy symbol glinting in the light. &lt;span class=general&gt;&quot;Isn&#39;t that right little $Name? Her blessing upon you.&quot;&lt;/span&gt;
+&lt;&lt;set $Steadfast = true&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="Reach Midwife" tags="" position="1000,900" size="100,100">You reach out for the priest, her kind face beckoning for you.  &lt;span class=general&gt;&quot;Oh, hello little one.&quot;&lt;/span&gt; She looks between your parents as she picks you up. &lt;span class=general&gt;&quot;Don&#39;t be offended, children are often drawn to the Morning Embrace&#39;s grace.&quot;&lt;/span&gt; She looks down at you now, her holy symbol glinting in the light. &lt;span class=general&gt;&quot;Isn&#39;t that right little $Name? Her blessing upon you.&quot;&lt;/span&gt;
 
-&gt; [[Years pass by]] 
+&lt;&lt;button &quot;The Years Pass By&quot; &quot;Age Eleven&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 
 &lt;&lt;set $ChrysalisRep += 1&gt;&gt;
 &lt;&lt;set $Athleticism += 1&gt;&gt;
 &lt;&lt;set $Awareness += 1&gt;&gt;
 &lt;&lt;set $Intellect += 1&gt;&gt;
-&lt;&lt;set $Sway += 1&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Reach for your Mother" tags="" position="800,900" size="100,100">You turn around, reaching for your mother. She takes you in her arms, smiling down at your small form. &lt;span class=mother&gt;&quot;$Pronoun really $Is wonderful.&quot;&lt;/span&gt; Her joy is evident on her face, and even as you age and your young memories fade you will always cherish the joy and hope she puts into the world.
+&lt;&lt;set $Sway += 1&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Reach Mother" tags="" position="800,900" size="100,100">You turn around, reaching for your mother. She takes you in her arms, smiling down at your small form. &lt;span class=mother&gt;&quot;$Pronoun really $Is wonderful.&quot;&lt;/span&gt; Her joy is evident on her face, and even as you age and your young memories fade you will always cherish the joy and hope she puts into the world.
 
-&gt; [[Years pass by]]
+&lt;&lt;button &quot;The Years Pass By&quot; &quot;Age Eleven&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 
 &lt;&lt;set $MotherRep += 1&gt;&gt;
-&lt;&lt;set $BeaconOfHope = true&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="Years pass by" tags="" position="800,1100" size="100,100">As the years carry on, you find yourself easing into life with relative grace. It is far from a luxorious lifestyle, but you get by easily enough.
+&lt;&lt;set $BeaconOfHope = true&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="Age Eleven" tags="" position="800,1100" size="100,100">As the years carry on, you find yourself easing into life with relative grace. It is far from a luxorious lifestyle, but you get by easily enough.
 
 &lt;&lt;if $Steadfast&gt;&gt;
 You quickly make yourself known as a stubborn child, refusing to back down on your ideals. Granted, your youthful ideals largely centered around what you will and will not eat, but in your heart you knew your cause to be just.
@@ -350,7 +375,8 @@ You are a fairly typical child, never making too much of a fuss. You cry like an
 By the time you reach age eleven you have gotten quite used to your life. Your mother Jeanette works as the Mayor of Cremona, a small town on the eastern coast of Rucicade. Your father Martin goes to work in the coal mines, an industry that keeps the entire town afloat. You are the perfect family, two loving parents and a child serving their community well. 
 
 Today is the first day of the new school year. The first schoolday was always a long one, as the kids from all the previous years wait for the thirteens year olds to go through the Harkening, a test to see if any of them have access to the Dialect. Cremona hasn&#39;t had a Orator in years, but the ceremony is mandated by the government of Rucicade. You know the purpose, that any Orator found would either be sent to the Crystal Citadel to learn how to control their gift, or an experienced Orator could choose to take them on as an apprentice. But there was always an element of removal from the idea due to the fact that you have never known anybody to experience it. Besides, there were no Orator&#39;s in your village that you were aware of, and so there was nobody to take on any apprentices. An Orator found here would be forced to go to the Citadel, and the idea of anybody you know being taken from the community is just beyond your youthful comprehension. Or maybe you just refuse to think about it, knowing that in just two years it will be you up on that platform.
-&gt; [[Enter the Schoolhouse]]</tw-passagedata><tw-passagedata pid="10" name="Menu" tags="" position="1800,200" size="100,100">MENU
+
+&lt;&lt;button &quot;Enter the Schoolhouse&quot; &quot;First Harkening&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="Menu" tags="" position="1800,200" size="100,100">MENU
 
 ATTRIBUTES  
 Athleticism: $Athleticism
@@ -399,14 +425,14 @@ Unknown\
 
 
 
-[[Lore Basics]] 
-&lt;a onclick=&quot;SugarCube.UI.restart();&quot; tabindex=&quot;0&quot;&gt;Restart&lt;/a&gt;</tw-passagedata><tw-passagedata pid="11" name="Confirm Name" tags="" position="800,700" size="100,100">&lt;span class=father&gt;&quot;I think we decided on $Name.&quot;&lt;/span&gt; says the man with joy in his voice. The bearded man sits at the end of your bed adorned in the garbs of a lowly manual laborer. A layer of soot rests upon his clothes, indicative of a grime so deep it could never truly be washed clean. He excudes an energy of determination, his jaw set firmly even as he looks at you with pride in his eyes.
+&lt;&lt;button &quot;Lore Basics&quot; &quot;Lore Basics&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
+&lt;&lt;button &quot;Restart&quot;&gt;&gt;&lt;&lt;run UI.restart();&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="First Look" tags="" position="800,700" size="100,100">&lt;span class=father&gt;&quot;I think we decided on $Name.&quot;&lt;/span&gt; says the man with joy in his voice. The bearded man sits at the end of your bed adorned in the garbs of a lowly manual laborer. A layer of soot rests upon his clothes, indicative of a grime so deep it could never truly be washed clean. He excudes an energy of determination, his jaw set firmly even as he looks at you with pride in his eyes.
 
 Turning your head, you see your mother, a woman of graceful complexion. Even now, with sweat covering her face, a level of joy and light radiated from her. She looks at you with a jovial smile on her face. &lt;span class=mother&gt;&quot;Little $Name $LastName. Welcome to the world.&quot;&lt;/span&gt;
 
-&gt; [[Reach for your Father]] (+Steadfast Skill)
-&gt; [[Reach for your Mother]] (+Beacon of Hope Skill)
-&gt; [[Reach for the Priest]] (+All Attributes)</tw-passagedata><tw-passagedata pid="12" name="Enter the Schoolhouse" tags="" position="800,1300" size="100,100">The first school day of the year always went the same. Your mother would give a mayoral speech on the importance of the Crystal Citadel, on how the Orator&#39;s are the backbone of our society but also the greatest threat. It is easy to see that your mother was just reciting a speech she had been taught, and her belief behind it seemed subdued at best. Each town has a representative assigned by the Citadel, and for years a man had served over the town. He would do some magic tricks for the children, his crystal hand bringing forth sparks of light.
+&lt;&lt;button &quot;Reach for your Father&quot; &quot;Reach Father&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Steadfast Skill)
+&lt;&lt;button &quot;Reach for your Mother&quot; &quot;Reach Mother&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Beacon of Hope Skill)
+&lt;&lt;button &quot;Reach for the Midwife&quot; &quot;Reach Midwife&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+All Attributes)</tw-passagedata><tw-passagedata pid="12" name="First Harkening" tags="" position="800,1300" size="100,100">The first school day of the year always went the same. Your mother would give a mayoral speech on the importance of the Crystal Citadel, on how the Orator&#39;s are the backbone of our society but also the greatest threat. It is easy to see that your mother was just reciting a speech she had been taught, and her belief behind it seemed subdued at best. Each town has a representative assigned by the Citadel, and for years a man had served over the town. He would do some magic tricks for the children, his crystal hand bringing forth sparks of light.
 
 This year, however, the man is nowhere to be seen. And so you pay little attention to the speech from your mother, instead gazing around the stage to try to find who might be the new representative. It is only when your mom stood aside and gestures for the representative to give a speech that you saw her. The woman steps forward, her right eye, which you can now see to be a metallic gold, reflecting light back into the crowd. She seems much more stern than the man you had known, her cold gaze seeming to scan the entire crowd at once.
 
@@ -422,8 +448,8 @@ The Nowhere House worked closely with the Crystal Citadel, sure, but the idea of
 
 She continues speaking, but you find yourself zoning out. You can&#39;t stop looking at her golden eye. You wonder what she did with her original eye. You know that Orators have their body parts replaced, but you don&#39;t know specifics about worshippers of the Watcher From Above. By the time you pull your attention back she has stepped back and the thirteen year old children are being led onto the stage. The first one steps forward, and the Sunbearer pulls an ornate wooden box from a bag. Lifting it&#39;s lid, she reveals a dull dagger made of a deep green metal. You have seen blades of this sort every year. Silent Steel, you remember the metal being called by some of the adults. The blade would do no harm to most people, but would reveal the nature of an Orator. You had never seen it work of course, but you had heard stories.
 
-&gt; [[Watch the Children]] (+Awareness)
-&gt; [[Comfort a Nearby Student]] (+Sway)</tw-passagedata><tw-passagedata pid="13" name="StoryInit" tags="" position="1800,100" size="100,100">&lt;&lt;set $Athleticism = 1&gt;&gt;
+&lt;&lt;button &quot;Watch the Children&quot; &quot;Watch Children&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Awareness)
+&lt;&lt;button &quot;Comfort a Nearby Student&quot; &quot;Comfort Student&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Sway)</tw-passagedata><tw-passagedata pid="13" name="StoryInit" tags="" position="1800,100" size="100,100">&lt;&lt;set $Athleticism = 1&gt;&gt;
 &lt;&lt;set $Awareness = 1&gt;&gt;
 &lt;&lt;set $Intellect = 1&gt;&gt;
 &lt;&lt;set $Sway = 1&gt;&gt;
@@ -594,7 +620,7 @@ Firstly, if their power was granted by Cacophony, Conquest, Consumption, or Corr
 
 The second and third options occur if one&#39;s powers come from any other Perennial. The second option is to be brought to the Crystal Citadel to be trained in a wide array of topics, from controlling and refining one&#39;s powers, to understanding the responsibilities enforced upon Orators in Rucicade. The third option is for any practiced Orator present at the Harkening to take the child on as an apprentice. In bigger cities Harkenings often attract crowds of Orators who might be looking to take on an apprentice.
 
-People are granted access to the Dialect when they brush up against the presence of one of the Perennials. This is far from a chosen one process, instead being an incident of complete chance that the Perennial themself is likely entirely unaware of. Whichever Perennial initially makes contact with you will have a significant impact upon what powers you have an how you get more. Gaining power as an Orator requires sacrifice, and the more powerful you become the less of your original self will remain. Incredibly powerful Orators can often seem barely human to speak to, often showing signs of their sacrifice in both their physical appearance and in how they act.</tw-passagedata><tw-passagedata pid="16" name="Cacophony Test" tags="" position="1300,600" size="100,100">The entity leans closer, it&#39;s smile spreading to the point where it should&#39;ve met it&#39;s own mouth in a circle, yet it just kept going. &lt;span class=cacophony&gt;&quot;I don&#39;t want you to die, little $LastName&quot;&lt;/span&gt; It&#39;s laughter echoes through your mind, you close your eyes and cover your bleeding ears but you still hear the laughter and you still see it&#39;s face. &lt;span class=cacophonytrue&gt;I want you to beg.&lt;/span&gt;</tw-passagedata><tw-passagedata pid="17" name="Watch the Children" tags="" position="700,1500" size="100,100">You study how the older children act, all stood in a line for their Harkening. Most look afraid, either nervously muttering to those next to them or standing so stiff they might as well be statues. One girl stands out however. She looks comfortable. No, beyond that, she looks smug as she leans against the wall, gazing out over the crowd. Her deep blue eyes travel from person to person, and before you have time to react her eyes have locked with yours. You see her confident smirk spread slightly, and she lifts her hand in a wave. Her hair is a dirty blonde, not unlike the hay you&#39;ve seen brought to market by the various farmers on the outskirts of town. She seems amused by your stare, and even as you turn your eyes away you can feel her continued stare upon you.
+People are granted access to the Dialect when they brush up against the presence of one of the Perennials. This is far from a chosen one process, instead being an incident of complete chance that the Perennial themself is likely entirely unaware of. Whichever Perennial initially makes contact with you will have a significant impact upon what powers you have an how you get more. Gaining power as an Orator requires sacrifice, and the more powerful you become the less of your original self will remain. Incredibly powerful Orators can often seem barely human to speak to, often showing signs of their sacrifice in both their physical appearance and in how they act.</tw-passagedata><tw-passagedata pid="16" name="Cacophony Test" tags="" position="1300,600" size="100,100">The entity leans closer, it&#39;s smile spreading to the point where it should&#39;ve met it&#39;s own mouth in a circle, yet it just kept going. &lt;span class=cacophony&gt;&quot;I don&#39;t want you to die, little $LastName&quot;&lt;/span&gt; It&#39;s laughter echoes through your mind, you close your eyes and cover your bleeding ears but you still hear the laughter and you still see it&#39;s face. &lt;span class=cacophonytrue&gt;I want you to beg.&lt;/span&gt;</tw-passagedata><tw-passagedata pid="17" name="Watch Children" tags="" position="700,1500" size="100,100">You study how the older children act, all stood in a line for their Harkening. Most look afraid, either nervously muttering to those next to them or standing so stiff they might as well be statues. One girl stands out however. She looks comfortable. No, beyond that, she looks smug as she leans against the wall, gazing out over the crowd. Her deep blue eyes travel from person to person, and before you have time to react her eyes have locked with yours. You see her confident smirk spread slightly, and she lifts her hand in a wave. Her hair is a dirty blonde, not unlike the hay you&#39;ve seen brought to market by the various farmers on the outskirts of town. She seems amused by your stare, and even as you turn your eyes away you can feel her continued stare upon you.
 
 The event continues, and before long the students are making their way one by one across the stage. One by one the dull blade is pressed into their hand, and one by one they relax as nothing happens and they are guided off the stage. The Sunbearer wields the blade much less gently than the man you had always seen before had. She seems almost in a hurry, quick to gesture for each child to leave her sight once they hadn&#39;t had any reaction. Eventually, a girl steps forward. The girl. She no longer meets your gaze, her eyes solely fixed on the center of the stage that awaits her. She extends her hand, and once again the dull blade is pushed into it. As this happens her demeanor changes, as she pulls her hand back with a cry. Blood drips from a newly opened wound, splashing on the stone flooring below.
 
@@ -603,7 +629,7 @@ There is a pause, a moment of shocked silence like you have never experienced. A
 Before anybody else has even had a moment to react, the Sunbearer has pulled manacles made of the same material as the blade from her robe. She fastens them around the wrists of the girl, and the display of sound and light stops instantly. Then the room reacts. Children cry, adults react in shock and fear. You can see your mother on stage looking suprised, her usual demeanor of routine and relative boredom shattered by this event.
 
 &lt;&lt;set $Awareness += 1&gt;&gt;
-&lt;&lt;set $AlexandraRep += 1&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Comfort a Nearby Student" tags="" position="900,1500" size="100,100">&lt;&lt;if $BeaconOfHope&gt;&gt;
+&lt;&lt;set $AlexandraRep += 1&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Comfort Student" tags="" position="900,1500" size="100,100">&lt;&lt;if $BeaconOfHope&gt;&gt;
 You approach a particuarly distraught looking student, doing your best to comfort them. It seems to work quite a bit, and before long they&#39;ve calmed down enough to talk. &lt;span class=general&gt;&quot;My brother&#39;s up there. I just don&#39;t want him to go away.&quot;&lt;/span&gt; You nod your head in understanding, promising to stand by them while the event continues.
 &lt;&lt;set $Sway += 2&gt;&gt;
 &lt;&lt;else&gt;&gt;
