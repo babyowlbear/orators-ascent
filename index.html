@@ -373,7 +373,7 @@ By the time you reach age eleven you have gotten quite used to your life. Your m
 
 Today is the first day of the new school year. The first schoolday was always a long one, as the kids from all the previous years wait for the thirteens year olds to go through the Harkening, a test to see if any of them have access to the Dialect. Cremona hasn&#39;t had a Orator in years, but the ceremony is mandated by the government of Rucicade. You know the purpose, that any Orator found would either be sent to the Crystal Citadel to learn how to control their gift, or an experienced Orator could choose to take them on as an apprentice. But there was always an element of removal from the idea due to the fact that you have never known anybody to experience it. Besides, there were no Orator&#39;s in your village that you were aware of, and so there was nobody to take on any apprentices. An Orator found here would be forced to go to the Citadel, and the idea of anybody you know being taken from the community is just beyond your youthful comprehension. Or maybe you just refuse to think about it, knowing that in just two years it will be you up on that platform.
 
-&lt;&lt;button &quot;Enter the Schoolhouse&quot; &quot;First Harkening&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="Menu" tags="" position="1800,100" size="100,100">MENU
+&lt;&lt;button &quot;Enter the Schoolhouse&quot; &quot;First Harkening&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="Menu" tags="" position="1400,300" size="100,100">MENU
 
 ATTRIBUTES  
 Athleticism: $Athleticism
@@ -422,27 +422,27 @@ Perennials:
 
 SKILLS  
 &lt;&lt;if $Steadfast&gt;&gt;\
-Steadfast: You never stray from your ideals, even under intense pressure. \
+__Steadfast:__ You never stray from your ideals, even under intense pressure. \
 &lt;&lt;else&gt;&gt;\
 Unknown\
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $BeaconOfHope&gt;&gt;\
-Beacon of Hope: You help keep those around you from faltering in the face of adversity. \
+__Beacon of Hope:__ You help keep those around you from faltering in the face of adversity. \
 &lt;&lt;else&gt;&gt;\
 Unknown\
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $AmateurSwordsman&gt;&gt;\
-Amateur Swordman: You learned the basics of swordplay from the local Swordplay Guild. \
+__Amateur Swordman:__ You learned the basics of swordplay from the local Swordplay Guild. \
 &lt;&lt;else&gt;&gt;\
 Unknown\
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $LusterbornScholar&gt;&gt;\
-Lusterborn Scholar: You have studied the ways of the subterranean race called the Lusterborn, including how to speak their language. \
+__Lusterborn Scholar:__ You have studied the ways of the subterranean race called the Lusterborn, including how to speak their language. \
 &lt;&lt;else&gt;&gt;\
 Unknown\
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if $LocalNetwork&gt;&gt;\
-Local Network: You know people around Cremona, and you know how to get things from them when necessary. \
+__Local Network:__ You know people around Cremona, and you know how to get things from them when necessary. \
 &lt;&lt;else&gt;&gt;\
 Unknown\
 &lt;&lt;/if&gt;&gt;\
@@ -474,7 +474,7 @@ She continues speaking, but you find yourself zoning out. You can&#39;t stop loo
 &lt;&lt;button &quot;Watch the Children&quot; &quot;Watch Children&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Awareness)
 &lt;&lt;button &quot;Comfort a Nearby Student&quot; &quot;Comfort Student&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Sway)
 
-&lt;&lt;set $MetAgnes = true&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="StoryInit" tags="" position="1800,0" size="100,100">&lt;&lt;set $Athleticism = 1&gt;&gt;
+&lt;&lt;set $MetAgnes = true&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="StoryInit" tags="" position="1400,400" size="100,100">&lt;&lt;set $Athleticism = 1&gt;&gt;
 &lt;&lt;set $Awareness = 1&gt;&gt;
 &lt;&lt;set $Intellect = 1&gt;&gt;
 &lt;&lt;set $Sway = 1&gt;&gt;
@@ -521,12 +521,12 @@ She continues speaking, but you find yourself zoning out. You can&#39;t stop loo
 
 Config.passages.nobr = true;
 
-&lt;&lt;link &quot;Saves&quot;&gt;&gt;&lt;&lt;script&gt;&gt;UI.saves()&lt;&lt;/script&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="PassageFooter" tags="" position="1600,100" size="100,100">&lt;&lt;if not tags().includes(&quot;mobile&quot;)&gt;&gt;
+&lt;&lt;link &quot;Saves&quot;&gt;&gt;&lt;&lt;script&gt;&gt;UI.saves()&lt;&lt;/script&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="PassageFooter" tags="" position="1400,100" size="100,100">&lt;&lt;if not tags().includes(&quot;mobile&quot;)&gt;&gt;
 
 &lt;div id=&quot;bottombar&quot;&gt;&lt;div id=&quot;bbblock&quot;&gt;&lt;div id=&quot;bbtext&quot;&gt; Athleticism:$Athleticism &amp;nbsp; Awareness:$Awareness &amp;nbsp; Intellect:$Intellect &amp;nbsp; Sway:$Sway &amp;nbsp; 
 Energy:$Energy 
   &lt;&lt;back &#39;Go Back&#39;&gt;&gt; &amp;nbsp; [[Menu]] &amp;nbsp; &lt;&lt;link &quot;Saves&quot;&gt;&gt;&lt;&lt;script&gt;&gt;UI.saves()&lt;&lt;/script&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;&lt;/if&gt;&gt;
-</tw-passagedata><tw-passagedata pid="15" name="Lore Basics" tags="" position="1300,100" size="100,100">It is not at all necessary to read this to understand and enjoy this game. With that said, it will cover some of the very basics of the world and may help things make more sense. Anything relevant to the story will be explained in the story, but if you want a better overall understanding this will grant that.
+</tw-passagedata><tw-passagedata pid="15" name="Lore Basics" tags="" position="1200,100" size="100,100">It is not at all necessary to read this to understand and enjoy this game. With that said, it will cover some of the very basics of the world and may help things make more sense. Anything relevant to the story will be explained in the story, but if you want a better overall understanding this will grant that.
 
 Firstly and most importantly, Perennials are the gods who created the world. They are completely beyond mortal comprehension, to the point where they seem to somewhat mold themselves to our expectations. For example, Cacophony is known as the Cacophonous Singer in Thyndorei and Rucicade, and when it is seen it is as a roiling mass of malevolent and maddening colors. However, in North Magnoria it is known as The Glimpse of Divine, and is seen as a man with paint staining his clothes and sheet music tattooed across his arms. Both are it&#39;s true form, and at the same time neither is.
 
@@ -711,7 +711,7 @@ Nothing. No lights or sounds, no grand display, just the feeling of a dull blade
 
 &lt;&lt;button &quot;You&#39;re Relieved Too&quot; &quot;Relieved&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 &lt;&lt;button &quot;You Feel Disapointed&quot; &quot;Disapointed&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
-&lt;&lt;button &quot;You Feel Angry&quot; &quot;Angry&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="21" name="Antigonish" tags="mobile" position="1300,400" size="100,100">&lt;span class=cacophonytrue&gt;Yesterday, upon the stair,
+&lt;&lt;button &quot;You Feel Angry&quot; &quot;Angry&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="21" name="Antigonish" tags="mobile" position="1200,300" size="100,100">&lt;span class=cacophonytrue&gt;Yesterday, upon the stair,
 I met a man who wasn&#39;t there
 He wasn&#39;t there again today
 I wish, I wish he&#39;d go away...
@@ -734,7 +734,7 @@ In the meantime of course you work on yourself. In particular, you really focus 
 
 &lt;&lt;button &quot;Joining the Local Swordplay Guild&quot; &quot;Swordplay&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Amateur Swordsman Skill, +Athleticism)
 &lt;&lt;button &quot;Studying the Lusterborn&quot; &quot;Lusterborn&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Lusterborn Scholar, +Intellect)
-&lt;&lt;button &quot;Making Connection Around Town&quot; &quot;Connections&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Local Networkl, +Sway)
+&lt;&lt;button &quot;Making Connection Around Town&quot; &quot;Connections&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Local Network, +Sway)
 
 </tw-passagedata><tw-passagedata pid="23" name="Disapointed" tags="" position="800,2100" size="100,100">You feel disapointed. Sure, being an Orator would be difficult and complicated, but it would have been an adventure. Some part of you had convinced yourself that you were special somehow, only for this test to tell you otherwise. Well, nothing you can do now. Time to just move forward with your life.
 
@@ -744,7 +744,7 @@ In the meantime of course you work on yourself. In particular, you really focus 
 
 &lt;&lt;button &quot;Joining the Local Swordplay Guild&quot; &quot;Swordplay&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Amateur Swordsman Skill, +Athleticism)
 &lt;&lt;button &quot;Studying the Lusterborn&quot; &quot;Lusterborn&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Lusterborn Scholar, +Intellect)
-&lt;&lt;button &quot;Making Connection Around Town&quot; &quot;Connections&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Local Networkl, +Sway)
+&lt;&lt;button &quot;Making Connection Around Town&quot; &quot;Connections&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Local Network, +Sway)
 </tw-passagedata><tw-passagedata pid="24" name="Angry" tags="" position="1000,2100" size="100,100">You feel angry. They had to have done something wrong. Maybe the blade was a fake. You know you are different, that you are special. You have to be an Orator, there&#39;s no way that Sunbearer woman could so casually sentence you to a life of achieving nothing and going nowhere. 
 
 After a few weeks realize that she can, in fact, do exactly that.
@@ -755,7 +755,7 @@ In the meantime of course you work on yourself. In particular, you really focus 
 
 &lt;&lt;button &quot;Joining the Local Swordplay Guild&quot; &quot;Swordplay&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Amateur Swordsman Skill, +Athleticism)
 &lt;&lt;button &quot;Studying the Lusterborn&quot; &quot;Lusterborn&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Lusterborn Scholar, +Intellect)
-&lt;&lt;button &quot;Making Connection Around Town&quot; &quot;Connections&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Local Networkl, +Sway)
+&lt;&lt;button &quot;Making Connection Around Town&quot; &quot;Connections&quot;&gt;&gt;&lt;&lt;/button&gt;&gt; (+Local Network, +Sway)
 </tw-passagedata><tw-passagedata pid="25" name="Swordplay" tags="" position="600,2300" size="100,100">Joining the Cremona Swordplay Guild is a past time reserved for the more noble oriented of the town, a demographic you only just fit into due to your mother&#39;s status. You are still generally known as the &quot;kid of the mine worker&quot; as much as you are the mayor&#39;s child, but overall you are treated well enough. You learn swordplay in the style of dueling that is popular in Rucicade, a delicate art of searching for openings in the opponent&#39;s stance.
 
 &lt;&lt;set $AmateurSwordsman = true&gt;&gt;
@@ -768,7 +768,7 @@ You learn their langauge as best you can, although apparently much of their comm
 &lt;&lt;set $Intellect += 2&gt;&gt;</tw-passagedata><tw-passagedata pid="27" name="Connections" tags="" position="1000,2300" size="100,100">You spend your days making connections to the people in your community, learning how to talk to them and, of course, how to get stuff from them when the need arises. When some drama happens in town you are the first to know, and when somebody needs help with something, you are always the one to go to to point them in the right direction.
 
 &lt;&lt;set $LocalNetwork = true&gt;&gt;
-&lt;&lt;set $Sway += 2&gt;&gt;</tw-passagedata><tw-passagedata pid="28" name="Know" tags="" position="1300,500" size="100,100">&lt;&lt;set $MetAurora = true&gt;&gt;
+&lt;&lt;set $Sway += 2&gt;&gt;</tw-passagedata><tw-passagedata pid="28" name="Know" tags="" position="1200,400" size="100,100">&lt;&lt;set $MetAurora = true&gt;&gt;
 &lt;&lt;set $MetAgnes = true&gt;&gt;
 &lt;&lt;set $MetAlexandra = true&gt;&gt;
 &lt;&lt;set $MetArthur = true&gt;&gt;
